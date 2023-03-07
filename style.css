@@ -1,0 +1,129 @@
+body {
+    background-color: #f3e0e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainContainer {
+    width: 100%;
+}
+
+#container {
+    width: 60%;
+    margin: 109px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#container div {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+#leftContainer {
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+#leftContainer h2 {
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 39px;
+}
+
+#leftContainer input {
+    border: 3px solid #eeeeee;
+    display: block;
+    background-color: #eeeeee;
+    padding: 11px 14px;
+    width: 58%;
+    font-size: 15px;
+}
+
+input[type=email] {
+    margin: 10px auto;
+}
+
+input[type=password] {
+    margin: 18px auto 25px auto;
+}
+
+#leftContainer input:focus {
+    border: 3px solid #eeeeee;
+    outline: none;
+}
+
+#logosList {
+    margin: 0;
+    padding: 0 166px;
+}
+
+#logosList li {
+    display: inline;
+    margin: 0;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.contentAboveInput {
+    margin: 58px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.contentBelowInput {
+    margin: 29px 0 0 0;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#leftContainer button {
+    border: 0;
+    border-radius: 24px;
+    background-color: #ff4b2b;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    margin: 17px auto;
+    padding: 13px 55px;
+    cursor: pointer;
+    transition: .2s ease-in-out 0s;
+}
+
+#leftContainer button:hover {
+    transform: scale(1.1);
+}
+
+#rightContainer {
+    background-color: #ff4553;
+    border-radius: 0 10px 10px 0;
+}
+
+#rightContainer h2 {
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+    margin: 118px auto 24px auto;
+    font-size: 41px;
+    font-weight: 800;
+}
+
+#rightContainer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.newline {
+    display: block;
+}
